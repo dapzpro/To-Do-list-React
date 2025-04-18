@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #eff6ff;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4c5e73, #212027);
+}
