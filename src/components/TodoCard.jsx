@@ -4,7 +4,7 @@ export default function TodoCard(props) {
   const { children, handleDeleteTodo, index, handleEditTodo } = props;
   return (
     <li className="flex justify-between items-center w-full p-2 my-1 rounded-lg bg-[#4C5e73] text-gray-100 shadow-md transition hover:scale-101 duration-200">
-      <span className="text-base sm:text-md font-medium break-words flex-1">
+      <span className="text-base sm:text-md font-medium break-words flex-1 max-w-[30ch] ">
         {children}
       </span>
       <div className="flex items-center gap-3 ml-4">
