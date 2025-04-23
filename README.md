@@ -70,29 +70,11 @@ Follow these steps to clone and run the project:
 
     - Run `npm install` to install the necessary dependencies. Also, install Tailwind CSS:
 
-    `npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init`
-
-3.  **Configure Tailwind CSS**:
-
-    - Set up Tailwind in `tailwind.config.js`:
-
-    `module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};`
+    `npm install -D tailwindcss`
 
     - Then, add the Tailwind directives in `src/index.css`:
 
-    `@tailwind base;
-@tailwind components;
-@tailwind utilities;`
+    `@import "tailwindcss";`
 
 4.  **Create the typing effect**:
 
@@ -101,24 +83,6 @@ npx tailwindcss init`
 5.  **Add task logic**:
 
     - Set up a state in `App.js` to manage the todo list and functions for adding and deleting tasks.
-
-## Contributing
-
-If you'd like to contribute to this project, follow these steps:
-
-1.  Fork the repository.
-
-2.  Create a new branch (`git checkout -b new-branch`).
-
-3.  Make your changes and commit them.
-
-4.  Push your branch (`git push origin new-branch`).
-
-5.  Create a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the MIT License. See the <LICENSE.md> file for details.
 
 ## Author
 
